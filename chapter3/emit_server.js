@@ -30,13 +30,6 @@ channel.on('shutdown',function () {
     channel.removeAllListeners('broadcast');
 });
 
-function Watcher(watchDir,processedDir){
-    this.watchDir=watchDir;
-    this.processedDir=processedDir;
-}
-
-utils.inherits(Watcher,events.EventEmitter);
-
 var server=net.createServer(function(client){
     var id=client.remoteAddress+':'+client.remotePort;
     channel.emit('join',id,client);
