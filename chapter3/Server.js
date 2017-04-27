@@ -32,3 +32,6 @@ function hadError(err,res){
     console.error(err);
     res.end('Server Error');
 }
+function add(){
+    
+}
