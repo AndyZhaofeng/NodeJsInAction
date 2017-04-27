@@ -1,4 +1,24 @@
 {
-  "name": "NodeJsInAction",
-  "version": "0.0.1"
+  "name": "zhaofeng",
+  "version": "0.0.1",
+  "keywords": ["node.js","javascript"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndyZhaofeng/NodeJsInAction.git"
+  },
+  "dependencies": {
+    "nimble":"4.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/AndyZhaofeng/NodeJsInAction/issues"
+  },
+  "homepage": "https://github.com/AndyZhaofeng/NodeJsInAction#readme",
+  "description": "create 20170427",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
