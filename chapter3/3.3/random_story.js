@@ -12,6 +12,7 @@ function checkForRSSFile(){
         if(!exists){
             return next(new Error('Missing RSS file:'+configFilename));
         }
+        next(null,configFilename);
     });
 }
 function readRSSFile(configFilename) {
@@ -51,3 +52,4 @@ function next(err,result) {
         currentTask(result);
     }
 }
+next();
